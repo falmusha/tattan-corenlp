@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.1.51</kotlin.version>
+        <kotlin.version>1.2.21</kotlin.version>
         <junit.version>4.12</junit.version>
     </properties>
 
@@ -44,6 +44,14 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.25</version>
         </dependency>
+        <dependency>
+            <groupId>org.erlang.otp</groupId>
+            <artifactId>jinterface</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/OtpErlang-1.8.1.jar</systemPath>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -80,7 +88,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>edu.uoft.ece.tattan.ServerKt</mainClass>
+                            <mainClass>edu.uoft.ece.tattan.OtpNodeKt</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
