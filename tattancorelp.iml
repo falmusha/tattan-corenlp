@@ -55,14 +55,6 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.2.0" level="project" />
     <orderEntry type="library" name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.25" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: org.erlang.otp:jinterface:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/OtpErlang-1.8.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: org.erlang.otp:jinterface:1.8.1" level="project" />
   </component>
 </module>
